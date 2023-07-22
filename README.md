@@ -50,7 +50,7 @@ The `PatientController` class handles incoming HTTP requests related to patients
 - `cancelAppointment()`: This endpoint responds to a DELETE request to "/appointment/cancel" and cancels an appointment for a patient based on the provided email and token in the request.
 
 ### 4. Repository
-The repository layer is not explicitly shown in this code snippet, but it would typically be implemented using Spring Data JPA or any other data access technology. It manages the interactions with the underlying database and provides methods for CRUD operations on the entities.
+ The Repository layer typically be implemented using Spring Data JPA. It manages the interactions with the underlying database and provides methods for CRUD operations on the entities.
 
 ## Data Structure Used in Your Project
 
